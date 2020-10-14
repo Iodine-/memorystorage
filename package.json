@@ -2,12 +2,12 @@
   "name": "memorystorage",
   "version": "0.11.0",
   "description": "Memory-backed implementation of the Web Storage API",
-  "src": "src/memorystorage.js",
-  "main": "dist/memorystorage.umd.js",
+  "src": "./src/memorystorage.js",
+  "main": "./dist/memorystorage.umd.js",
   "dist": {
-    "umd": "dist/memorystorage.umd.js",
-    "min": "dist/memorystorage.min.js",
-    "map": "dist/memorystorage.min.js.map"
+    "umd": "./dist/memorystorage.umd.js",
+    "min": "./dist/memorystorage.min.js",
+    "map": "./dist/memorystorage.min.js.map"
   },
   "exports": [
     "MemoryStorage"
